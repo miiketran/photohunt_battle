@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84AFBFBE1B696C61006CEF0A /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB11B696C61006CEF0A /* SocketAckManager.swift */; };
+		84AFBFBF1B696C61006CEF0A /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB21B696C61006CEF0A /* SocketAnyEvent.swift */; };
+		84AFBFC01B696C61006CEF0A /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB31B696C61006CEF0A /* SocketEngine.swift */; };
+		84AFBFC11B696C61006CEF0A /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB41B696C61006CEF0A /* SocketEngineClient.swift */; };
+		84AFBFC21B696C61006CEF0A /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB51B696C61006CEF0A /* SocketEventHandler.swift */; };
+		84AFBFC31B696C61006CEF0A /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB61B696C61006CEF0A /* SocketFixUTF8.swift */; };
+		84AFBFC41B696C61006CEF0A /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB71B696C61006CEF0A /* SocketIOClient.swift */; };
+		84AFBFC51B696C61006CEF0A /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB81B696C61006CEF0A /* SocketLogger.swift */; };
+		84AFBFC61B696C61006CEF0A /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFB91B696C61006CEF0A /* SocketPacket.swift */; };
+		84AFBFC71B696C61006CEF0A /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFBA1B696C61006CEF0A /* SocketParser.swift */; };
+		84AFBFC81B696C61006CEF0A /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFBB1B696C61006CEF0A /* SocketTypes.swift */; };
+		84AFBFC91B696C61006CEF0A /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFBC1B696C61006CEF0A /* SwiftRegex.swift */; };
+		84AFBFCA1B696C61006CEF0A /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBFBD1B696C61006CEF0A /* WebSocket.swift */; };
 		CC27EB8F1B68625B00C005B9 /* SaintPaulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27EB8E1B68625B00C005B9 /* SaintPaulViewController.swift */; };
 		CC27EB911B68639A00C005B9 /* CircuitBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27EB901B68639A00C005B9 /* CircuitBoardViewController.swift */; };
 		CC2E32A21B68375700E8BF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E32A11B68375700E8BF5F /* AppDelegate.swift */; };
@@ -37,6 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84AFBFB11B696C61006CEF0A /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
+		84AFBFB21B696C61006CEF0A /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		84AFBFB31B696C61006CEF0A /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
+		84AFBFB41B696C61006CEF0A /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
+		84AFBFB51B696C61006CEF0A /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
+		84AFBFB61B696C61006CEF0A /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
+		84AFBFB71B696C61006CEF0A /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
+		84AFBFB81B696C61006CEF0A /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
+		84AFBFB91B696C61006CEF0A /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
+		84AFBFBA1B696C61006CEF0A /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
+		84AFBFBB1B696C61006CEF0A /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
+		84AFBFBC1B696C61006CEF0A /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = nodePhotohunt_battle/SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
+		84AFBFBD1B696C61006CEF0A /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = nodePhotohunt_battle/SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
 		CC27EB8E1B68625B00C005B9 /* SaintPaulViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaintPaulViewController.swift; sourceTree = "<group>"; };
 		CC27EB901B68639A00C005B9 /* CircuitBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitBoardViewController.swift; sourceTree = "<group>"; };
 		CC2E329E1B68375700E8BF5F /* photohunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photohunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,9 +106,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84AFBFB01B69655F006CEF0A /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				84AFBFB11B696C61006CEF0A /* SocketAckManager.swift */,
+				84AFBFB21B696C61006CEF0A /* SocketAnyEvent.swift */,
+				84AFBFB31B696C61006CEF0A /* SocketEngine.swift */,
+				84AFBFB41B696C61006CEF0A /* SocketEngineClient.swift */,
+				84AFBFB51B696C61006CEF0A /* SocketEventHandler.swift */,
+				84AFBFB61B696C61006CEF0A /* SocketFixUTF8.swift */,
+				84AFBFB71B696C61006CEF0A /* SocketIOClient.swift */,
+				84AFBFB81B696C61006CEF0A /* SocketLogger.swift */,
+				84AFBFB91B696C61006CEF0A /* SocketPacket.swift */,
+				84AFBFBA1B696C61006CEF0A /* SocketParser.swift */,
+				84AFBFBB1B696C61006CEF0A /* SocketTypes.swift */,
+				84AFBFBC1B696C61006CEF0A /* SwiftRegex.swift */,
+				84AFBFBD1B696C61006CEF0A /* WebSocket.swift */,
+			);
+			name = SocketIO;
+			sourceTree = "<group>";
+		};
 		CC2E32951B68375700E8BF5F = {
 			isa = PBXGroup;
 			children = (
+				84AFBFB01B69655F006CEF0A /* SocketIO */,
 				CC2E32A01B68375700E8BF5F /* photohunt */,
 				CC2E32B51B68375700E8BF5F /* photohuntTests */,
 				CC2E32C01B68375700E8BF5F /* photohuntUITests */,
@@ -201,6 +248,7 @@
 				TargetAttributes = {
 					CC2E329D1B68375700E8BF5F = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 36W3N6T6T4;
 					};
 					CC2E32B11B68375700E8BF5F = {
 						CreatedOnToolsVersion = 7.0;
@@ -264,9 +312,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AFBFBE1B696C61006CEF0A /* SocketAckManager.swift in Sources */,
 				CC27EB8F1B68625B00C005B9 /* SaintPaulViewController.swift in Sources */,
+				84AFBFC31B696C61006CEF0A /* SocketFixUTF8.swift in Sources */,
+				84AFBFC41B696C61006CEF0A /* SocketIOClient.swift in Sources */,
+				84AFBFC21B696C61006CEF0A /* SocketEventHandler.swift in Sources */,
 				CC2E32A41B68375700E8BF5F /* HomeViewController.swift in Sources */,
+				84AFBFC51B696C61006CEF0A /* SocketLogger.swift in Sources */,
+				84AFBFCA1B696C61006CEF0A /* WebSocket.swift in Sources */,
+				84AFBFBF1B696C61006CEF0A /* SocketAnyEvent.swift in Sources */,
+				84AFBFC11B696C61006CEF0A /* SocketEngineClient.swift in Sources */,
+				84AFBFC01B696C61006CEF0A /* SocketEngine.swift in Sources */,
+				84AFBFC81B696C61006CEF0A /* SocketTypes.swift in Sources */,
+				84AFBFC61B696C61006CEF0A /* SocketPacket.swift in Sources */,
+				84AFBFC71B696C61006CEF0A /* SocketParser.swift in Sources */,
 				CC2E32A21B68375700E8BF5F /* AppDelegate.swift in Sources */,
+				84AFBFC91B696C61006CEF0A /* SwiftRegex.swift in Sources */,
 				CC27EB911B68639A00C005B9 /* CircuitBoardViewController.swift in Sources */,
 				CC2E32D01B6844DE00E8BF5F /* FivePeopleViewController.swift in Sources */,
 			);
@@ -408,10 +469,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = photohunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miiketran.photohunt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -419,10 +483,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = photohunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miiketran.photohunt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
