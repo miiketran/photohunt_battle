@@ -177,18 +177,15 @@ class FivePeopleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        transition.hidden = true
-        transition.enabled = false
+        transition.hidden = false
+        transition.enabled = true
         
     }
     func showTransition() {
         transition.hidden = false
         transition.enabled = true
     }
-    func displayTransitionButton() {
-        transition.hidden = false
-        transition.enabled = true
-    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
